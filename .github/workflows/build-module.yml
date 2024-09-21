@@ -12,12 +12,12 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "22.03.1"
+          - tag: "22.03.2"
             pkgarch: mipsel_24kc
             target: ramips
-            subtarget: mt7620
+            subtarget: ath79
             vermagic: "61c5cc4c45c2f25ae66a95db95c6bedc"
-          - tag: "22.03.1"
+          - tag: "22.03.0"
             pkgarch: mipsel_24kc
             target: ramips
             subtarget: mt7620
